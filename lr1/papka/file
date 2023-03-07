@@ -17,7 +17,7 @@ do
 			echo "Тип файла: "; stat -c%F $filename
 			echo "Размер: "; stat -c%s $filename
 			echo "Владелец: "; stat -c%U $filename
-			echo "Права доступа: "; stat -c%A $filename #ls -l $filename | cut -c -10
+			echo "Права доступа: "; stat -c%A $filename
 			echo "Дата создания: "; stat -c%z $filename
 			echo ""
 		else 
